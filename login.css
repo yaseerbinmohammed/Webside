@@ -1,0 +1,121 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(https://media.istockphoto.com/id/1321448269/photo/collection-of-trendy-womens-garments-on-rack-indoors-closeup-and-space-for-text-clothing.jpg?s=1024x1024&w=is&k=20&c=fMQljtsdBURsrkZhIFlqO11HlXdWWDrbh5FhtUcxMtA=);
+ background-size: cover;
+    background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+main{
+    background-color:#ecdada;
+    width: 400px;
+    height: 700px;
+    /* margin-left: 350px; */
+    position: absolute;
+    left: 490px;
+    border-radius: 5px;
+    margin-top: 12px;
+    
+    
+    
+
+}
+.loginpage a{
+    text-decoration: none;
+}
+.divimg img{
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.heading{
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.label1{
+    margin-left: 50px;
+    margin-top: 40px;
+    
+}
+.label1 label{
+    font-size: large;
+}
+.emailaddress input:hover{
+    box-shadow: 1px 1px 5px 1px black;
+}
+.password input:hover{
+    box-shadow: 1px 1px 5px 1px black;
+
+}
+#email{
+    width: 300px;
+    height: 30px;
+    
+}
+#epass{
+    width: 300px;
+    height: 30px;
+}
+.signin{
+    width: 300px;
+    height:40px ;
+    margin-top: 30px;
+}
+.signin:hover{
+    background-color: black;
+    color: white;
+}
+.password{
+    margin-top: 30px;
+}
+.or{
+    text-align: center;
+    margin-top: 30px;
+}
+.create{
+    color: white;
+    background-color: black;
+    width: 300px;
+    height:40px ;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+.create:hover{
+    background-color: white;
+    color: black;
+}
+.forget{
+    color: blue;
+    text-align: center;
+    margin-top: 30px;
+}
+.help1{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: rgb(65, 65, 250);
+    margin-top: 30px;
+
+}
+.forget:hover{
+    text-decoration: underline;
+}
+.help:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width: 600px){
+    main{
+        position: absolute;
+        left: 50px;
+    }
+}
+@media screen and (min-width:601px)and (max-width:900px){
+    main{
+        position: absolute;
+        left:200px;}
+}

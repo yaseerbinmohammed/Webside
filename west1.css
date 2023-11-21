@@ -1,0 +1,227 @@
+* {
+    margin-top: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+.kk1 {
+    background-color: #ecdadac7 !important;
+    position: fixed;
+    z-index: 1;
+    margin-top: 6%;
+}
+
+.serch {
+    margin-top: 1% !important;
+    height: 50px;
+}
+
+.but1 {
+    width: 300px !important;
+    margin-top: 1%;
+    height: 50px;
+}
+
+/* .img3{ object-fit: cover;} */
+.img4 {
+    width: 250%;
+}
+
+/* .woman{position: absolute; top: 170%; z-index: 1;
+    margin-left: 6%;
+}  */
+
+.shop {
+    background-color: rgba(3, 112, 112, 0.753) !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+    font-size: large;
+    transition: all 0.3s ease;
+}
+
+.shop :hover {
+    background-color: rgb(132, 190, 190);
+    transform: scale(1.1);
+}
+
+.woman {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+
+
+
+
+
+.img3 {
+    margin-top: 6%;
+
+}
+
+.image6 {
+    display: flex;
+    flex-direction: row !important;
+    justify-content: space-around;
+    background-color: rgb(238, 204, 15);
+    transform: transform 0.7s ease;
+    margin-top: 30px;
+}
+
+.image7 { display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between;
+    margin-top: 20px;
+  
+    background-color: rgba(255, 255, 255, 0.856);
+    transform: transform 0.7s ease;
+}
+.sp1{display: flex; 
+    display: inline-block !important;}
+.sp2{display: flex;
+    display: inline-block !important;}
+
+
+    
+footer {
+    /* background-image: url("https://media.istockphoto.com/id/653003428/photo/fashionable-clothes-in-a-boutique-store-in-london.jpg?s=1024x1024&w=is&k=20&c=r4sSIrCe49aZ1SShze_Lo9Ivk1QVBFi5w_aM-zDpD7g="); */
+
+    background-color: #ecdada;
+    display: flex;
+
+
+    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 3%;
+
+
+
+}
+
+ul li {
+    padding: 3%;
+    list-style: none
+}
+
+
+#inp1 {
+    width: 80% !important;
+
+}
+
+
+.inp2 {
+    margin-left: 50%;
+}
+
+footer a {
+    text-decoration: none !important;
+    color: #000000 !important;
+}
+
+
+li {
+    list-style: none !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+
+footer h1 {
+    color: rgb(0, 0, 0) !important;
+}
+
+footer h2 {
+    color: rgb(0, 0, 0) !important;
+}
+
+
+
+
+.tit2 {
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-top: 5%;
+
+    background-color: #ecdada5e;
+
+
+
+
+}
+
+.image7 :hover {
+    /* transition: all; */
+    /* transform: scale(1.1); */
+    transform: scale(1.03);
+    transition: ease-in-out 0.5s;
+   
+}
+
+
+.image6 :hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale(1.03);
+    transition: ease-in-out 0.5s;
+}
+
+
+@media screen and (max-width:600px) {
+   .image7{display: flex !important;
+flex-direction: column !important;
+margin-left: 80px;}
+    .image6 {
+        display: flex !important;
+       
+        flex-direction: column !important;
+        
+    
+        margin-left: 80px;
+      
+        
+    
+
+    }
+ 
+    
+    .footer{display: flex;
+    flex-direction: column;
+
+    
+  
+    
+  
+
+    
+}
+.open{display: none;}
+ .unopen :hover .open{display: block;}
+
+}
+
+
+
+
+
+
+@media screen and (min-width:601px) and (max-width:900px) {
+    .image7 {
+        display: flex !important;
+        flex-direction: column !important;
+        margin-left: 160px;
+    }
+    .image6 {
+        display: flex !important;
+        flex-direction: column !important;
+        margin-left: 160px;
+    
+
+    }
+}

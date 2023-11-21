@@ -1,0 +1,108 @@
+
+*{margin: 0%;
+padding: 0%;}
+.cor{width: 400px !important;
+height: 400px !important;
+margin-top: 8% !important;
+margin-left: 4%;
+display: inline-block;
+
+}
+
+
+@media screen and (max-width:600px)  {
+.cor{width: 1000px !important;}
+.but11{margin-left: 25px !important;}
+.main1{margin-top: 30px;}
+
+    
+}
+@media screen and (min-width:601px) and (max-width:900px) {
+.main1{display: flex;}
+.but11{margin-top: 60px;}
+}
+
+  
+
+.card1{display: inline-block;
+    margin-left: 10%;
+    
+   
+
+}
+.but1{ display: flex;
+    justify-content: space-between;}
+
+    .but2{
+        height: 40px;
+        width: 40px;
+        border: 1px solid black;
+    border-radius: 20px;}
+    .but3{
+        background-color: black;
+        
+        width: 200px;
+        height:40px!important;
+      
+      }
+
+    
+    .but3 :hover{
+         
+        color: rgb(0, 0, 0) !important;
+        transform: transform 0.7s ease;
+        
+    }
+
+.but1 :hover{
+color: #9c2727;}
+
+
+    a .but3{color: rgb(255, 255, 255)}
+    .but4{
+        background-color: rgb(30, 3, 48);
+        height: 40px;
+        width: 40px;
+        border: 1px solid black;
+    border-radius: 20px;}
+
+    .but5{
+        background-color: rgb(3, 82, 3);
+        height: 40px;
+        width: 40px;
+        border: 1px solid black;
+    border-radius: 20px;}
+
+    .but6{
+        background-color:#dabebe5e;
+        height: 40px;
+        width: 40px;
+        border: 1px solid #feffbd;
+    border-radius: 20px;}
+    .but7{
+        background-color: rgb(16, 17, 16);
+        height: 40px;
+        width: 40px;
+        border: 1px solid black;
+    border-radius: 20px;}
+    .but8{
+        background-color: rgb(138, 20, 20);
+        height: 40px;
+        width: 40px;
+        border: 1px solid black;
+    border-radius: 20px;}
+
+  .but11  :hover{
+    
+    color: #0dad15;
+    transform: scaleX(1.1);
+    transform:scale(1.03); transition: ease-in-out 0.5s;
+
+      }
+    
+
+
+
+
+
+      .image7{margin-top: 30px;}
